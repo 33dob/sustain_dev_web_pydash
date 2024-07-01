@@ -1,6 +1,7 @@
+
 from dash import Dash, html, page_container
 import dash_bootstrap_components as dbc
-# update hi SDE
+
 app = Dash(__name__,
            use_pages=True, 
            external_stylesheets=[dbc.themes.BOOTSTRAP],
@@ -70,4 +71,4 @@ app.layout = html.Div([
 })
 ######################################################################
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug = True)
