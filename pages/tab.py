@@ -62,14 +62,14 @@ def render_content(tab, select):
                          "Spread of Work Areas After Graduation","Graduation Job Type","Number of Graduate by Department and Institutes","Association Suspension with Departments",
                          "Number of students dropping out of the top ten schools","Number of dropouts withdrawals in the admission","Library Resources","Brother and Sister Schools",
                          "Number of Students Free from Tuition and Fees","Registration Rate of New Student Enrolled each Department","Student Teacher Ratio in Day Programs by Academic Year","Number Full-time, Part-time Teacher",
-                         "Detail"]
+                         "Graph"]
             return container
         else:
             container = ["學年學生分佈", "入學途徑, 性別和大學", "學生實習總時數","性別比例",
                          "畢業後工作領域分佈","畢業工作類型","各系畢業生人數","大學休學原因與學系之間的熱圖及分佈情況",
                          "退學學生數排名前十的學校","入學中退學人數","圖書館資源","兄弟姊妹學校",
                          "免學費學生人數","各系新生報到率","按學年劃分的日間課程師生比例","專職、兼職教師人數",
-                         "細節"]
+                         "圖表"]
             return container
     
     translate = lang_translate(select)

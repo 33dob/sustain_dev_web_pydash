@@ -51,7 +51,7 @@ app.layout = html.Div([
                 'backgroundColor':'#F9F9F9',
                 }))),
     
-    dbc.Row(dbc.Col(html.Footer([html.P('國立臺北商業大學校務研究中心', 
+    dbc.Row(dbc.Col(html.Footer([html.P('國立臺北商業大學校務永續發展中心', 
                                         style={
                                                 'color':'white',
                                                 'textAlign' : "center",}),
